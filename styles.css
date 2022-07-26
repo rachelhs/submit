@@ -1,0 +1,31 @@
+.body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.submit {
+    width: 197px;
+    height: 46px;
+    font-size: 25px;
+    background-color: lightgrey;
+    border-width: 3.5px;
+    border-style: outset;
+    border-top-color: white;
+    border-right-color: darkgrey;
+    border-bottom-color: darkgrey;
+    border-left-color: lightgrey;
+}
+
+.first-button {
+    align-self: center;    
+    margin: 0 auto;
+}
